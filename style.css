@@ -1,0 +1,114 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+header h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+header p {
+  font-size: 1.5rem;
+}
+nav {
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+}
+nav a:hover {
+  color: #2575fc;
+  transition: color 0.3s ease;
+}
+section {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+.about, .skills, .projects, .contact {
+  margin-bottom: 100px;
+}
+.about img {
+  max-width: 300px;
+  border-radius: 20px;
+  float: right;
+  margin-left: 30px;
+}
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+.skills li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.progress {
+  background: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.progress-bar {
+  background: #2575fc;
+  color: white;
+  padding: 5px;
+}
+.projects .gallery {
+  display: grid;
+  gap: 20px;
+}
+.projects .gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.projects .gallery img:hover {
+  transform: scale(1.05);
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact button {
+  background: #2575fc;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background: #1f1f1f;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  font-size: 1rem;
+}
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
